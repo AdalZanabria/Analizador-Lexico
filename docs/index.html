@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Analizador Lexico</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/fontawesome.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/jquery-3.4.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/fontawesome.min.js"></script>
+        <script defer type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body class="bg-primary">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Analizador Léxico de Lenguaje</h1>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Analizador Léxico</h4>
+                            <form action="/" method="GET" id="form">
+                                <div class="form-group">
+                                    <label for="cadena"
+                                        >Ingrese una cadena de texto a
+                                        evaluar:</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="cadena"
+                                    />
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">
+                                    Evaluar
+                                </button>
+                            </form>
+                        </div>
+
+                        <div class="card-footer text-muted">
+                            <h5 class="card-title">Lenguaje</h5>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    El alfabeto permitido son las cadenas que
+                                    incluyen las letras: "a", "b", "c", "d" y
+                                    "e". Éstas solo pueden ser minúsculas.
+                                </li>
+                                <li class="list-group-item">
+                                    Escriba una cadena para validarla.
+                                </li>
+                                <li class="list-group-item">
+                                    Use la instrucción
+                                    <i>U(cadena1,cadena2)</i> para concatenar
+                                    dos cadenas.
+                                </li>
+                                <li class="list-group-item">
+                                    Use la instrucción
+                                    <i>N(cadena,numero)</i> para mostrar el
+                                    caracter en el lugar <i>numero</i> de la
+                                    cadena. El conteo inicia con el número 0.
+                                </li>
+                                <li class="list-group-item">
+                                    Use la instrucción <i>L(cadena)</i> para
+                                    mostrar la longitud de la cadena.
+                                </li>
+                                <li class="list-group-item">
+                                    Use la instrucción <i>P(cadena)</i> para
+                                    mostrar el primer caracter de la cadena.
+                                </li>
+                                <li class="list-group-item">
+                                    Use la instrucción <i>F(cadena)</i> para
+                                    mostrar el caracter final de la cadena.
+                                </li>
+                                <li class="list-group-item">
+                                    Use la operación <i>cadena*2</i> para
+                                    obtener el doble del total de caracteres
+                                    dentro de la cadena.
+                                </li>
+                                <li class="list-group-item">
+                                    Use la operación <i>cadena/2</i> para
+                                    obtener la mitad del total de caracteres
+                                    dentro de la cadena. El resultado es
+                                    redondeado.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+
+        <footer class="lfooter">
+            <p class="lead">
+                <small>
+                    Adalberto Zanabria Castro<br />
+                    Licenciatura en Ingeniería en Sistemas y Tecnologías de la
+                    Información<br />
+                    Octavo Cuatrimestre<br />
+                    UNIVA Universidad del Valle de Atemajac<br />
+                    Página Web para clase Programación de Aplicaciones Web,
+                    Maestro Juan David Salcedo Uribe<br />
+                    Analizador Léxico para clase Métodos Formales, Maestra
+                    Claudia Guadalupe Cervantes Torres
+                </small>
+            </p>
+        </footer>
+    </body>
+</html>

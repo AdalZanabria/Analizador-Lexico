@@ -1,0 +1,14 @@
+.lfooter {
+    padding: 2.5rem 0;
+    color: #e5e5e5;
+    text-align: center;
+    background-color: #0063cc;
+    border-top: 0.05rem solid #e5e5e5;
+}
+.lfooter p:last-child {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    margin-bottom: 35px;
+}
